@@ -64,7 +64,7 @@ menu_validacion = 1
 while menu_validacion == 1: 
     
     os.system('cls')
-    print("\n-- Menú Principal -- \n")
+    print(f"\n -- Menú Principal -- \n")
     print(" 1. Módulo Registros")
     print(" 2. Módulo Clínica")
     print(" 3. Módulo de Venta de Productos")
