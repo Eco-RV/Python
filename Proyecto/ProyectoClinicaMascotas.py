@@ -1,11 +1,6 @@
 #Proyecto Clinica de Mascotas.
 
-#Librerias
-import os 
-import time
-
 # - logeo -
-os.system('cls')
 print("\n - Login - \n")
 
 #Usuarios
@@ -31,13 +26,13 @@ while login_usuario_validacion == 1:
                 login_password_validacion = 0 
                 login_usuario_validacion  = 0
             else:
-                os.system('cls')
+                
                 print("\n- Login -")
                 print("\nAcceso Denegado Contraseña Incorrecta\n")
                 print(f"Digite su Usuario: {user}")
         
     else:
-        os.system('cls')
+        
         print("\n- Login -")
         print("\nAcceso Denegado Usuario Incorrecto\n") 
 
@@ -63,7 +58,7 @@ masct_4 = 0
 menu_validacion = 1
 while menu_validacion == 1: 
     
-    os.system('cls')
+    
     print(f"\n -- Menú Principal -- \n")
     print(" 1. Módulo Registros")
     print(" 2. Módulo Clínica")
@@ -79,7 +74,7 @@ while menu_validacion == 1:
             while modulo_registro_validacion == 1:
 
                 # - Modulos Registros -
-                os.system('cls')
+                
                 print("\n - Módulo Registros - \n")
                 print(" 1. Registros de Médicos.")
                 print(" 2. Datos de dueño.")
@@ -91,7 +86,7 @@ while menu_validacion == 1:
                 # - Médicos -
                 if   registro_Seleccion == "1":
                     
-                    os.system('cls')
+                    
                     print("\n - Registro de Medicos - \n" )
 
                     if  med_1 == 0:
@@ -105,7 +100,6 @@ while menu_validacion == 1:
 
                         med_1 = 1
                         print("\nSe han cargado los datos de los médicos exitosamente.\n")
-                        time.sleep(1)
 
                     elif med_2 == 0:
 
@@ -118,7 +112,6 @@ while menu_validacion == 1:
 
                         med_2 = 1
                         print("\nSe han cargado los datos de los médicos exitosamente.\n")
-                        time.sleep(1)
 
                     elif med_3 == 0:
 
@@ -131,17 +124,15 @@ while menu_validacion == 1:
 
                         med_3 = 1
                         print("\nSe han cargado los datos de los médicos exitosamente.\n")
-                        time.sleep(1)
 
                     else:
-                        os.system('cls')
+                        
                         print("\nMáximo de Médicos Registrados (3).")
-                        time.sleep(1)
 
                 # - Dueños -
                 elif registro_Seleccion == "2":
 
-                    os.system('cls')
+                    
                     print("\n - Registro de Dueños - \n" )
 
                     if dueno_1 == 0:
@@ -154,7 +145,6 @@ while menu_validacion == 1:
 
                         dueno_1 = 1
                         print("\nSe han cargado los datos de los Dueños exitosamente.\n")
-                        time.sleep(1)
 
                     elif dueno_2 == 0:
 
@@ -166,17 +156,15 @@ while menu_validacion == 1:
 
                         dueno_2 = 1
                         print("\nSe han cargado los datos de los Dueños exitosamente.\n")
-                        time.sleep(1)
 
                     else:
-                        os.system('cls')
+                        
                         print("\nMáximo de Dueños Registrados (2).")
-                        time.sleep(1)
 
                 # - Mascotas -
                 elif registro_Seleccion == "3":
 
-                    os.system('cls')
+                    
                     print("\n - Registro de Mascotas - \n" )
 
                     if masct_1 == 0:
@@ -193,7 +181,6 @@ while menu_validacion == 1:
 
                         masct_1 = 1
                         print("\nSe han cargado los datos de las mascotas exitosamente.\n")
-                        time.sleep(1)
 
                     elif masct_2 == 0:
 
@@ -209,7 +196,6 @@ while menu_validacion == 1:
 
                         masct_2 = 1
                         print("\nSe han cargado los datos de las mascotas exitosamente.\n")
-                        time.sleep(1)
                     
                     elif masct_3 == 0:
 
@@ -225,7 +211,6 @@ while menu_validacion == 1:
 
                         masct_3 = 1
                         print("\nSe han cargado los datos de las mascotas exitosamente.\n")
-                        time.sleep(1)
 
                     elif masct_4 == 0:
 
@@ -241,12 +226,10 @@ while menu_validacion == 1:
 
                         masct_4 = 1
                         print("\nSe han cargado los datos de las mascotas exitosamente.\n")
-                        time.sleep(1)
 
                     else:
-                        os.system('cls')
-                        print("\nMáximo de Mascotas 2 por dueño. (4)).")
-                        time.sleep(1)
+                        
+                        print("\nMáximo de Mascotas 2 por dueño. (4).")
 
                 elif registro_Seleccion == "4":
                     modulo_registro_validacion = 0
