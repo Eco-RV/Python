@@ -2,11 +2,11 @@
 
 #Oswald Reid Villalobos Programación Básica Semana 4 Práctica 3
 
-#Tema: Venta de Repuestos Automatrices
+#Tema: Venta de Repuestos Automotrices
 
 #oreid Begin
 
-#Librerias
+#Librerías
 import time
 
 #Design
@@ -44,7 +44,7 @@ print("\n")
 
 time.sleep(1) #Esperar 1 Segundos
 
-#Cálcular Montos
+#Calcular Montos
 
 #Variables Montos
 report_producto_nombre                = ""
@@ -96,7 +96,7 @@ print(constLineH2)
 
 print(f"  Producto     : {codigo_Producto} - {report_producto_nombre} ") 
 print(f"  Cantidad     : {report_producto_cantidad}                   ")     
-print(f"  Precio Unid  : {report_producto_precio}                     ")
+print(f"  Precio Unidad  : {report_producto_precio}                     ")
 print(f"  Descuento    : %{report_producto_descuento_porcentaje}      ")    
 print(f"  Precio Total : {report_SubTotal}                            ")
 
