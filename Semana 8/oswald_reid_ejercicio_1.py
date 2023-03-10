@@ -5,7 +5,6 @@
 
 #Librerias
 import os
-import time
 
 #Variables Globales
 entrada_precio_regular    = 2000
