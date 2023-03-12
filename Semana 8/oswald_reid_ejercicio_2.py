@@ -99,19 +99,23 @@ while menu_hilo:
             print(" ╚═══════════════════════════════════════════════════════════╝")
 
             if carne_tipo_1_kilos > 0:
-                print(f"   Cerdo                      {carne_tipo_1_kilos}                    {carne_tipo_1_monto}        ")
+                print(f"   Cerdo                     {carne_tipo_1_kilos}                   {carne_tipo_1_monto}")
                 print(f"  ═══════════════════════════════════════════════════════════")
             
             if carne_tipo_2_kilos > 0:
-                print(f"   Res                        {carne_tipo_2_kilos}                    {carne_tipo_2_monto}        ")
+                print(f"   Res                       {carne_tipo_2_kilos}                   {carne_tipo_2_monto}")
                 print(f"  ═══════════════════════════════════════════════════════════")
             
             if carne_tipo_3_kilos > 0:
-                print(f"   Pollo                      {carne_tipo_3_kilos}                    {carne_tipo_2_monto}        ")
+                print(f"   Pollo                     {carne_tipo_3_kilos}                   {carne_tipo_3_monto}")
                 print(f"  ═══════════════════════════════════════════════════════════")
 
             print(f"\n   Total          :{total_venta}")
             print(f"   Ganancia (35%) :{total_Ganancia}")
+            
+            print("\n ╔═══════════════════════════════════════════════════════════╗")
+            print(" ║                           FIN                             ║")
+            print(" ╚═══════════════════════════════════════════════════════════╝")
 
             informe_salir = input("\n   ¿Desea Salir? (Y): ")
         
